@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "play:alpine": "docker run --rm --interactive --tty alpine /bin/sh",
-    "ps": "docker ps"
+    "ps": "docker ps",
+    "build:create-laravel-app-in-alpine": "docker build --tag create-laravel-app-in-alpine create-laravel-app-in-alpine"
   },
   "keywords": [],
   "author": "",
