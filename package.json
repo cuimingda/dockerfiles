@@ -1,0 +1,13 @@
+{
+  "name": "@cuimingda/dockerfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "play:alpine": "docker run --rm --interactive --tty alpine /bin/sh",
+    "ps": "docker ps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
