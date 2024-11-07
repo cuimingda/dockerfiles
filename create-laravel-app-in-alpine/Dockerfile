@@ -17,9 +17,9 @@ RUN apk update && apk add --no-cache \
     npm \
     icu-data-full
 
-RUN composer global require laravel/installer
 ENV PATH="/root/.composer/vendor/bin:${PATH}"
 
+RUN composer global require laravel/installer
 RUN npm install --global pnpm
 
 WORKDIR /app
