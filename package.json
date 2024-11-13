@@ -6,7 +6,8 @@
   "scripts": {
     "play:alpine": "docker run --rm --interactive --tty alpine /bin/sh",
     "ps": "docker ps",
-    "build:create-laravel-app-in-alpine": "docker build --tag create-laravel-app-in-alpine create-laravel-app-in-alpine"
+    "build:create-laravel-app-in-alpine": "docker build --tag create-laravel-app-in-alpine create-laravel-app-in-alpine",
+    "build:create-vue-app": "docker build --tag create-vue-app-image create-vue-app"
   },
   "keywords": [],
   "author": "",
